@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/saiganeb/.oh-my-zsh"
@@ -8,7 +8,7 @@ export ZSH="/Users/saiganeb/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -96,12 +96,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 alias l="ls"
-alias a="cd ~/assignments"
-alias d="cd ~/Downloads"
-alias cal="~/awk_games/calculator.awk"
-alias snap="~/executableFiles/snapshot.sh"
-alias runtest="~/executableFiles/run_test.sh"
-alias jsE="~/executableFiles/jsEditor.awk"
-alias funcnames="/executableFiles/printFuncNames.awk"
-alias v="vim"
+alias mk=". makingDirectory.sh"
+alias msc="makeGeneralScript.sh"
+alias gil="linkGitFiles.sh"
