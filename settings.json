@@ -1,3 +1,10 @@
 {
-    "editor.multiCursorModifier": "ctrlCmd"
+    "editor.multiCursorModifier": "ctrlCmd",
+    "window.zoomLevel": 2,
+    "editor.tabSize": 2,
+    "editor.useTabStops": false,
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Monokai",
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false
 }

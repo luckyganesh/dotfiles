@@ -98,6 +98,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 alias l="ls"
-alias mk=". makingDirectory.sh"
+alias mk="source makingDirectory.sh"
 alias msc="makeGeneralScript.sh"
 alias gil="linkGitFiles.sh"
+alias temp="source createTemp.sh"
+alias atz="source addToZshrc.sh"
+alias tree="tree -I \"node_modules|coverage\""
+ [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
