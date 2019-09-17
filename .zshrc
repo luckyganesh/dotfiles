@@ -2,7 +2,7 @@
  export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/saiganeb/.oh-my-zsh"
+export ZSH="/Users/saiganesh/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -96,7 +96,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 alias l="ls"
 alias mk="source makingDirectory.sh"
 alias msc="makeGeneralScript.sh"
@@ -105,3 +104,5 @@ alias temp="source createTemp.sh"
 alias atz="source addToZshrc.sh"
 alias tree="tree -I \"node_modules|coverage\""
  [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -1,0 +1,13 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	a = add
+	p = push
+	d = diff
+[user]
+	name = Sai Ganesh
+	email = 44020019+luckyganesh@users.noreply.github.com
+[core]
+	editor = vim
