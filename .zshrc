@@ -105,3 +105,5 @@ alias tree="tree -I \"node_modules|coverage\""
  [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
  source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
  source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias zshrc="vim ~/.zshrc"
+alias vimrc="vim ~/.vimrc"
