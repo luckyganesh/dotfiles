@@ -99,7 +99,6 @@ source $ZSH/oh-my-zsh.sh
 alias l="ls"
 alias mk="source makingDirectory.sh"
 alias msc="makeGeneralScript.sh"
-alias gil="linkGitFiles.sh"
 alias temp="source createTemp.sh"
 alias atz="source addToZshrc.sh"
 alias tree="tree -I \"node_modules|coverage\""
