@@ -16,6 +16,7 @@ set foldlevel=1      " Set at least 2 levels of fold open
 set backspace=indent,eol,start
 set laststatus=2
 set statusline+=%F
+set mouse=a
 set nu  "setting line numbers in vim
 map <C-n> :NERDTreeToggle<CR>
 map cf iconst  <Esc>maa = function() {<Esc>o}<Esc>kp`ai
