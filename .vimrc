@@ -28,3 +28,4 @@ map cir iconst ref = require(' <Esc>mai');<Esc>`ai
 map for ifor( <Esc>mai){<Esc>o};<Esc>`ai
 map srt iassert.deepEqual(,); <Esc>3hi 
 vnoremap <C-y> "*y
+" vnoremap <C-y> :w !pbcopy<CR><CR> " this will work for copying

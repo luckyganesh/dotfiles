@@ -96,8 +96,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export HOMEBREW_NO_AUTO_UPDATE=1
 alias l="ls"
-alias mk="source makingDirectory.sh"
 alias msc="makeGeneralScript.sh"
 alias temp="source createTemp.sh"
 alias atz="source addToZshrc.sh"
@@ -107,3 +108,12 @@ alias tree="tree -I \"node_modules|coverage\""
  source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
+if [ -f '/Users/saiganesh/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then 
+  . '/Users/saiganesh/Downloads/google-cloud-sdk/completion.zsh.inc';
+fi
+if [ -f '/Users/saiganesh/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/saiganesh/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+fpath=(/usr/local/share/zsh-completions $fpath)
+export PATH=$HOME/go/bin:$PATH
+source $HOME/.cargo/env
+export PATH="$HOME/.cargo/bin:$PATH"
+export LC_ALL=en_US.UTF-8
