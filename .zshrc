@@ -4,6 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+ZSH_DISABLE_COMPFIX=true
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -117,3 +118,13 @@ export PATH=$HOME/go/bin:$PATH
 source $HOME/.cargo/env
 export PATH="$HOME/.cargo/bin:$PATH"
 export LC_ALL=en_US.UTF-8
+export PATH=${PATH}:/usr/local/mysql/bin
+export PATH=${PATH}:/usr/local/Cellar/mosquitto/1.6.7/sbin
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+alias python="python3.7"
+alias pip="pip3.7"
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+export TERM=xterm-256color
