@@ -5,6 +5,6 @@
     "editor.useTabStops": false,
     "editor.formatOnPaste": true,
     "workbench.colorTheme": "Monokai",
-    "files.autoSave": "afterDelay",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange"
 }
