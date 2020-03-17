@@ -19,13 +19,5 @@ set statusline+=%F
 set mouse=a
 set nu  "setting line numbers in vim
 map <C-n> :NERDTreeToggle<CR>
-map cf iconst  <Esc>maa = function() {<Esc>o}<Esc>kp`ai
-map cnf iconst  <Esc>maa = function() {<Esc>o<Esc>o}<Esc>`ai
-map cl iconsole.log();<Esc>hi
-map pa iprocess.argv[];<Esc>hhi
-map cr iconst ref = require('./<Esc>mai');<Esc>`ai
-map cir iconst ref = require(' <Esc>mai');<Esc>`ai
-map for ifor( <Esc>mai){<Esc>o};<Esc>`ai
-map srt iassert.deepEqual(,); <Esc>3hi 
 vnoremap <C-y> "*y
-" vnoremap <C-y> :w !pbcopy<CR><CR> " this will work for copying
+colorscheme torte
