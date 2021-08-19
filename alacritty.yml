@@ -60,7 +60,7 @@ window:
   #
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
-  startup_mode: Maximized
+  startup_mode: Windowed
 
   # Window title
   #title: Alacritty
@@ -564,5 +564,31 @@ key_bindings:
   #- { key: PageDown,  mods: Shift,   action: ScrollPageDown, mode: ~Alt       }
   #- { key: Home,      mods: Shift,   action: ScrollToTop,    mode: ~Alt       }
   #- { key: End,       mods: Shift,   action: ScrollToBottom, mode: ~Alt       }
-  - { key: F,  mods: Alt,           chars: "\x1bf"                       }
-  - { key: B,  mods: Alt,           chars: "\x1bb"                       }
+  - { key: F,  mods: Alt,           chars: "\x02f" }
+  - { key: B,  mods: Alt,           chars: "\x02b" }
+  - { key: R,  mods: Command,       chars: "\x02r" }
+  - { key: N,  mods: Command,       chars: "\x02n" }
+  - { key: D,  mods: Command,       chars: "\x02%" } 
+  - { key: D,  mods: Command|Shift, chars: "\x02\"" } 
+  - { key: W,  mods: Command,       chars: "\x02&" }
+  - { key: T,  mods: Command,       chars: "\x02c" }
+  - { key: K,  mods: Command,       chars: "\x02k" }
+  - { key: Return, mods: Command,    chars: "\x02z" }
+  - { key: Comma, mods: Command|Shift,    chars: "\x02$" }
+  - { key: Comma, mods: Command,    chars: "\x02," }
+  - { key: Key1, mods: Command,    chars: "\x021" }
+  - { key: Key2, mods: Command,    chars: "\x022" }
+  - { key: Key3, mods: Command,    chars: "\x023" }
+  - { key: Key4, mods: Command,    chars: "\x024" }
+  - { key: Key5, mods: Command,    chars: "\x025" }
+  - { key: Key6, mods: Command,    chars: "\x026" }
+  - { key: Key7, mods: Command,    chars: "\x027" }
+  - { key: Key8, mods: Command,    chars: "\x028" }
+  - { key: Key9, mods: Command,    chars: "\x029" }
+  - { key: Grave, mods: Alt,       chars: "\x02(" }
+  - { key: S, mods: Command,       chars: "\x02s" }
+  - { key: LBracket, mods: Command, chars: "\x02;" }
+  - { key: RBracket, mods: Command, chars: "\x02o" }
+  - { key: LBracket, mods: Command|Shift, chars: "\x02{"}
+  - { key: RBracket, mods: Command|Shift, chars: "\x02}"}
+
