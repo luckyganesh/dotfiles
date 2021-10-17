@@ -5,4 +5,5 @@ source ~/.aliases
 fish_add_path /usr/local/opt/openjdk@11/bin
 export HOMEBREW_NO_AUTO_UPDATE=1
 
-export GODEBUG=x509ignoreCN=0
+ export GODEBUG=x509ignoreCN=0
+direnv hook fish | source
