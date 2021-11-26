@@ -6,6 +6,7 @@
 	a = add
 	p = push
 	d = diff
+  cp = cherry-pick
 [user]
 	name = Sai Ganesh
 	email = saiganeb@thoughtworks.com
