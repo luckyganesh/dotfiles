@@ -4,9 +4,11 @@
 	ci = commit
 	st = status
 	a = add
-	p = push
+	pu = push
+  pl = pull
 	d = diff
   cp = cherry-pick
+  rb = rebase
 [user]
 	name = Sai Ganesh
 	email = saiganeb@thoughtworks.com
