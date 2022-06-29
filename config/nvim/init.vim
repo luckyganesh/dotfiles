@@ -20,4 +20,4 @@ set mouse=a
 set nu  "setting line numbers in vim
 map <C-n> :NERDTreeToggle<CR>
 vnoremap <C-y> "*y
-colorscheme default 
+colorscheme torte

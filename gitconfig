@@ -13,7 +13,7 @@
 	name = Sai Ganesh
 	email = saiganeb@thoughtworks.com
 [core]
-	editor = vim
+	editor = nvim
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
@@ -23,3 +23,5 @@
 	rebase = true
 [init]
 	defaultBranch = master
+[http]
+	sslVerify = false

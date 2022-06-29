@@ -1,3 +1,4 @@
 alias k=kubectl
 alias g=git
 alias univeream=~/bin/univeream.fish
+alias vim=nvim
