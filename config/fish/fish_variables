@@ -1,9 +1,10 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3400
-SETUVAR _fisher_evanlucas_2F_fish_2D_kubectl_2D_completions_files:/Users/saiganeb/\x2econfig/fish/completions/kubectl\x2efish
-SETUVAR _fisher_jorgebucaran_2F_fisher_files:/Users/saiganeb/\x2econfig/fish/functions/fisher\x2efish\x1e/Users/saiganeb/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_evanlucas_2F_fish_2D_kubectl_2D_completions_files:\x7e/\x2econfig/fish/completions/kubectl\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_plugins:evanlucas/fish\x2dkubectl\x2dcompletions\x1ejorgebucaran/fisher
+SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_color_autosuggestion:777777
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:00FF00
