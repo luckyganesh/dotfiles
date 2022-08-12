@@ -26,3 +26,5 @@
 	defaultBranch = master
 [http]
 	sslVerify = false
+[push]
+  autoSetupRemote = true
