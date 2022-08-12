@@ -9,3 +9,4 @@ export HOMEBREW_NO_AUTO_UPDATE=1
  export GODEBUG=x509ignoreCN=0
 direnv hook fish | source
 fish_add_path /usr/local/opt/tomcat@9/bin
+starship init fish | source
