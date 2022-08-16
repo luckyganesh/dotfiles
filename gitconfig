@@ -1,13 +1,13 @@
 [alias]
-	co = checkout
-	br = branch
-	ci = commit
+  co = checkout
+  br = branch
+  ci = commit
   cl = clone
-	st = status
-	a = add
-	pu = push
+  st = status
+  a = add
+  pu = push
   pl = pull
-	d = diff
+  d = diff
   cp = cherry-pick
   rb = rebase
 [user]
