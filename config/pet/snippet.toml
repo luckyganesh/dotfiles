@@ -1,0 +1,4 @@
+[[snippets]]
+  description = "to get the list of all pods"
+  command = "kubectl get pods"
+  output = ""
