@@ -16,3 +16,4 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 fisher install evanlucas/fish-kubectl-completions
+fisher install otms61/fish-pet
