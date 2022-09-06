@@ -1,5 +1,5 @@
 [General]
-  snippetfile = "/Users/saiganeb/.config/pet/snippet.toml"
+  snippetfile = "$HOME/.config/pet/snippet.toml"
   editor = "nvim"
   column = 40
   selectcmd = "fzf --layout reverse"
