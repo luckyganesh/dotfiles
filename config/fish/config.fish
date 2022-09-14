@@ -11,4 +11,3 @@ fzf_key_bindings
 direnv hook fish | source
 fish_add_path /usr/local/opt/tomcat@9/bin
 starship init fish | source
-

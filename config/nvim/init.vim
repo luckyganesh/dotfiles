@@ -21,3 +21,9 @@ set nu  "setting line numbers in vim
 map <C-n> :NERDTreeToggle<CR>
 vnoremap <C-y> "*y
 colorscheme torte
+
+call plug#begin()
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+Plug 'nickeb96/fish.vim'
+call plug#end()
