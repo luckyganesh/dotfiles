@@ -1,6 +1,5 @@
 {
     "editor.multiCursorModifier": "ctrlCmd",
-    "window.zoomLevel": 2,
     "editor.tabSize": 2,
     "editor.useTabStops": false,
     "editor.formatOnPaste": true,
@@ -9,5 +8,6 @@
     "files.autoSave": "onFocusChange",
     "terminal.integrated.env.osx": {
         "FIG_NEW_SESSION": "1"
-    }
+    },
+    "window.zoomLevel": 1
 }
