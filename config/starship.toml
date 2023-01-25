@@ -31,7 +31,7 @@ deleted = "🗑"
 
 [battery]
 full_symbol = "🔋 "
-charging_symbol = "⚡️ "
+charging_symbol = "⚡️"
 discharging_symbol = "💀 "
 disabled = false
 
