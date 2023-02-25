@@ -1,3 +1,14 @@
 package https://github.com/otms61/fish-pet
+package powerline
+package vcs
+theme agnoster
+theme chain
+theme cyan
 theme default
+theme fox
+theme gitstatus
+theme one
+theme plain
 theme simple
+theme slavic-cat
+theme wolf-theme

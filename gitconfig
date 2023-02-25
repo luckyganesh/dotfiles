@@ -10,9 +10,6 @@
   d = diff
   cp = cherry-pick
   rb = rebase
-[user]
-	name = Sai Ganesh
-	email = saiganeb@thoughtworks.com
 [core]
 	editor = nvim
 [filter "lfs"]

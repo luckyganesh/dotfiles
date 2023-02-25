@@ -1,9 +1,10 @@
 set nocompatible              " be iMproved, required
-filetype off                  " required
+filetype on                  " required
 set ruler
 set incsearch
 syntax on
-filetype indent on
+filetype plugin indent on
+set autoindent
 set updatetime=100  "gitgetter updation
 set softtabstop=2
 set expandtab
@@ -21,6 +22,7 @@ set nu  "setting line numbers in vim
 map <C-n> :NERDTreeToggle<CR>
 vnoremap <C-y> "*y
 colorscheme default 
+set ma
 
 
 " Use ctrl-[hjkl] to select the active split!
