@@ -330,6 +330,12 @@ font:
 #  program: /bin/bash
 #  args:
 #    - --login
+shell:
+  program: /usr/local/bin/fish
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux new -s personal"
 
 # Startup directory
 #
@@ -585,7 +591,7 @@ key_bindings:
   - { key: Key7, mods: Command,    chars: "\x027" }
   - { key: Key8, mods: Command,    chars: "\x028" }
   - { key: Key9, mods: Command,    chars: "\x029" }
-  - { key: Grave, mods: Alt,       chars: "\x02(" }
+  - { key: Escape, mods: Command,       chars: "\x02(" }
   - { key: S, mods: Command,       chars: "\x02s" }
   - { key: LBracket, mods: Command, chars: "\x02;" }
   - { key: RBracket, mods: Command, chars: "\x02o" }
