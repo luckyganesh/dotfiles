@@ -2,3 +2,4 @@ config/fish/completions
 .idea
 lein/self-installs
 config/gh
+config/configstore
