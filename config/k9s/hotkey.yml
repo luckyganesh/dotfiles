@@ -1,0 +1,44 @@
+# $XDG_CONFIG_HOME/k9s/hotkey.yml
+hotKey:
+
+  # Hitting Shift-0 navigates to your context view
+  shift-0:
+    shortCut:    Shift-0
+    description: Viewing contexts
+    command:     contexts
+
+  # Hitting Shift-1 navigates to your namespaces
+  shift-1:
+    shortCut:    Shift-1
+    description: View namespaces
+    command:     ns
+
+  shift-2:
+    shortCut: Shift-2
+    description: View pods
+    command: pods
+
+  shift-3:
+    shortCut: Shift-3
+    description: View deployment
+    command: dp
+
+  shift-4:
+    shortCut: Shift-4
+    description: View ingress
+    command: ingress
+
+  shift-5:
+    shortCut: Shift-5
+    description: View secrets
+    command: secrets
+
+  shift-6:
+    shortCut: Shift-6
+    description: View spc
+    command: spc
+
+  shift-9:
+    shortCut: Shift-9
+    description: View nodes
+    command: nodes

@@ -1,0 +1,10 @@
+k9s:
+  views:
+    apps/v1/deployments:
+      columns:
+        - NAME
+        - IMAGE
+        - READY
+        - UP-TO-DATE
+        - AVAILABLE
+        - AGE

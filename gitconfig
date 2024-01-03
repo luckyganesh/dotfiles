@@ -20,7 +20,8 @@
 [pull]
 	rebase = true
 [init]
-	defaultBranch = master
+	defaultBranch = main
+	templatedir = " "
 [http]
 	sslVerify = false
 [push]

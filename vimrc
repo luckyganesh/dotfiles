@@ -1,3 +1,8 @@
+call plug#begin()
+Plug 'hashivim/vim-terraform'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+call plug#end()
+
 set nocompatible              " be iMproved, required
 filetype on                  " required
 set ruler
@@ -21,7 +26,7 @@ set mouse=a
 set nu  "setting line numbers in vim
 map <C-n> :NERDTreeToggle<CR>
 vnoremap <C-y> "*y
-colorscheme default 
+" colorscheme catppuccin-frappe
 set ma
 
 

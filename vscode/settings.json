@@ -1,13 +1,26 @@
 {
-    "editor.multiCursorModifier": "ctrlCmd",
     "editor.tabSize": 2,
     "editor.useTabStops": false,
     "editor.formatOnPaste": true,
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "One Monokai",
     "editor.minimap.enabled": false,
     "files.autoSave": "onFocusChange",
     "terminal.integrated.env.osx": {
         "FIG_NEW_SESSION": "1"
     },
-    "window.zoomLevel": 1
+    "github-enterprise.uri": "https://github.dev.global.tesco.org/",
+    "window.newWindowDimensions": "maximized",
+    "files.associations": {
+        "*.tf": "terraform",
+        "*.tfvars": "tfvars"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[terraform-vars]": {
+
+    }
 }
