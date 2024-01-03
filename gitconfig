@@ -26,3 +26,6 @@
 	sslVerify = false
 [push]
   autoSetupRemote = true
+[user]
+  name = "Sai Ganesh"
+  email = "saiganeshb40@gmail.com"
