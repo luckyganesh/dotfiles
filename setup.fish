@@ -9,6 +9,7 @@ ln -s ~/dotfiles/vimrc ~/.vimrc
 ln -s ~/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/aliases ~/.aliases
 ln -s ~/dotfiles/lein ~/.lein
+ln -s /Applications/IntelliJ\ IDEA\ CE.app/Contents/MacOS/idea /usr/local/bin/idea
 
 
 
