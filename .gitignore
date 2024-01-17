@@ -1,3 +1,4 @@
+*.swp
 config/fish/completions
 .idea
 lein/self-installs

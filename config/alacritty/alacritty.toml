@@ -59,7 +59,7 @@ mods = "Command"
 [[keyboard.bindings]]
 chars = "\u0002$"
 key = "Comma"
-mods = "Command|Shift"
+mods = "Command|Control"
 
 [[keyboard.bindings]]
 chars = "\u0002,"
@@ -134,12 +134,12 @@ mods = "Command"
 [[keyboard.bindings]]
 chars = "\u0002{"
 key = "LBracket"
-mods = "Command|Shift"
+mods = "Command|Control"
 
 [[keyboard.bindings]]
 chars = "\u0002}"
 key = "RBracket"
-mods = "Command|Shift"
+mods = "Command|Control"
 
 [scrolling]
 #auto_scroll = true
