@@ -19,6 +19,8 @@
 	process = git-lfs filter-process
 [pull]
 	rebase = true
+[rebase]
+  autoStash = true
 [init]
 	defaultBranch = main
 	templatedir = " "

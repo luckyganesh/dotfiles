@@ -1,4 +1,4 @@
-#!/usr/local/bin/fish
+#!/opt/homebrew/bin/fish
 
 rm ~/.tmux.conf ~/.vimrc ~/.gitconfig ~/.aliases ~/.lein
 rm -rf ~/.config ~/.lein

@@ -148,7 +148,7 @@ multiplier = 3
 
 [shell]
 args = ["-l", "-c", "tmux attach || tmux new -s personal"]
-program = "/usr/local/bin/fish"
+program = "/opt/homebrew/bin/fish"
 
 [window]
 decorations = "full"

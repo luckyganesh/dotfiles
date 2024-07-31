@@ -7,3 +7,4 @@ config/configstore
 config/fish/fish_variables
 config/fish/functions/fzf_key_bindings.fish
 config/fish/functions/fisher.fish
+config/op
