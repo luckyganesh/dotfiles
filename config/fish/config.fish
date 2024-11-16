@@ -4,6 +4,7 @@ source ~/.aliases
 
 fish_add_path /opt/homebrew/bin
 fish_add_path /usr/local/opt/openjdk@11/bin
+fish_add_path /opt/homebrew/opt/socket_vmnet/bin
 export HOMEBREW_NO_AUTO_UPDATE=1
 eval (fnm env)
 source ~/.project.fish

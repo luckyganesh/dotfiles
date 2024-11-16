@@ -146,7 +146,7 @@ mods = "Command|Control"
 history = 100000
 multiplier = 3
 
-[shell]
+[terminal.shell]
 args = ["-l", "-c", "tmux attach || tmux new -s personal"]
 program = "/opt/homebrew/bin/fish"
 
@@ -166,3 +166,5 @@ y = 0
 [window.position]
 x = 0
 y = 0
+
+[terminal]
