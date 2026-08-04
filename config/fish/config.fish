@@ -25,5 +25,5 @@ fzf --fish | source
 direnv hook fish | source
 fish_add_path /usr/local/opt/tomcat@9/bin
 fish_add_path $HOME/.krew/bin
-source ~/projects/work/export_variables.fish
+[-f ~/projects/work/export_variables.fish ]; and source ~/projects/work/export_variables.fish
 starship init fish | source
