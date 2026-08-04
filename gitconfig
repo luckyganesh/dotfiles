@@ -28,6 +28,9 @@
 	sslVerify = false
 [push]
   autoSetupRemote = true
-[user]
-  name = "Sai Ganesh"
-  email = "saiganeshb40@gmail.com"
+
+[includeIf "gitdir:~/projects/work/"]
+  path = ~/projects/work/.gitconfig
+
+[includeIf "gitdir:~/projects/myown/"]
+  path = ~/projects/myown/.gitconfig
